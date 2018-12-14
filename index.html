@@ -1,21 +1,500 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>A Guy who loves Python | Xsolute Dev Blog</title><link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/css/highlights/dracula.css"><link rel="canonical" href="http://xsolute.github.io/"/>
-<meta name="description" content="Xsolute Dev Blog">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    
+
+    
+    <title>Xsolute&#39;s Development Blog</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="description" content="Xsolute&apos;s Development Blog">
 <meta name="keywords" content="Python">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Xsolute Dev Blog">
-<meta property="og:url" content="http://xsolute.github.io/">
-<meta property="og:site_name" content="Xsolute Dev Blog">
-<meta property="og:description" content="Xsolute Dev Blog">
-<meta property="og:locale" content="default">
-<meta property="og:image" content="http://xsolute.github.io/images/default.jpg">
+<meta property="og:title" content="Xsolute&#39;s Development Blog">
+<meta property="og:url" content="http://xsolute.github.io/index.html">
+<meta property="og:site_name" content="Xsolute&#39;s Development Blog">
+<meta property="og:description" content="Xsolute&apos;s Development Blog">
+<meta property="og:locale" content="ko">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Xsolute Dev Blog">
-<meta name="twitter:description" content="Xsolute Dev Blog">
-<meta name="twitter:image" content="http://xsolute.github.io/images/default.jpg"><link rel="icon" href="/images/logo.png"><link rel="alternate" href="/atom.xml" type="application/atom+xml" title="Xsolute Dev Blog"></head><body itemscope itemtype="https://schema.org/WebPage"><nav class="menu" id="menu"><div class="menu-inner"><div class="menu__left-area"><div class="menu__item"><a class="menu__item__link menu__item__link--brand" href="/" title="Home" rel="home"><img class="menu__item__link--brand__image" src="/images/logo.png" alt="Xsolute Dev Blog"><span class="menu__item__link--brand__label">Xsolute Dev Blog</span></a></div></div><div class="menu__right-area"><div class="menu__item menu__item--active"><a class="menu__item__link" href="/">Home</a></div><div class="menu__item"><a class="menu__item__link" href="/about">About</a></div><div class="menu__item"><a class="menu__item__link" href="/archives">Archives</a></div></div></div></nav><div class="page-background"></div><div class="content-container"><div class="content-outer"><div class="content-inner" itemscope itemtype="https://schema.org/Blog"><section class="post-list"><article class="post-list__item"><div class="post-list__item__col-1"><a class="post-list__item__link" href="/2018/08/02/python1/"><div class="post-list__item__link__background" style="background-image:url('../images/python.jpg');"></div></a></div><div class="post-list__item__col-2"><div class="post-list__item__meta"></div><h3 class="post-list__item__title"><a href="/2018/08/02/python1/" title="파이썬(Python) 강좌 1. 시작하기">파이썬(Python) 강좌 1. 시작하기</a></h3><p class="post-list__item__description">
+<meta name="twitter:title" content="Xsolute&#39;s Development Blog">
+<meta name="twitter:description" content="Xsolute&apos;s Development Blog">
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="Xsolute&#39;s Development Blog" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/images/logo.png" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">Xsolute&#39;s Development Blog - Provides Various Informations</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">홈</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Programming/">Programming</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Programming/Python/">Python</a></li></ul></li></ul>
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="https://about.me/xsolute">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '포스트',
+            PAGES: 'Pages',
+            CATEGORIES: '카테고리',
+            TAGS: '태그',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <em class="page-title-link" data-url="home">홈</em>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            
+
+    
+    
+        
+        
+        <section class="archives-wrap">
+            <div class="archive-year-wrap">
+                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
+            </div>
+            <div class="archives">
+    
+    
+    
+        <div class="article-row">
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2018/08/02/python1/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://source.unsplash.com/D9Zow2REm8U)" alt="파이썬(Python) 강좌 1. 시작하기" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://xsolute.github.io/2018/08/02/python1/">0</span>
+    
+</span>
+
+
+    
+</a>
+
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Programming/">Programming</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Programming/Python/">Python</a>
+            </div>
+            <div class="date"><time datetime="2018-08-02T02:46:10.000Z" itemprop="datePublished">2018-08-02</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2018/08/02/python1/">파이썬(Python) 강좌 1. 시작하기</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            
 Section 1.1: 시작하기파이썬은 귀도 반 로섬(Guido van Rossum)이 만들어낸 1991년에 최초로 공개되어 일반적으로 많은 곳에서 쓰여지는 고수준 프로그래밍 언어입니다.
-파이썬은 동적 타입 시스템과 자동 메모리 관리 시스템을 제공하고,...</p></div></article><article class="post-list__item"><div class="post-list__item__col-1"><a class="post-list__item__link" href="/2018/08/02/python0/"><div class="post-list__item__link__background" style="background-image:url('../images/python.jpg');"></div></a></div><div class="post-list__item__col-2"><div class="post-list__item__meta"></div><h3 class="post-list__item__title"><a href="/2018/08/02/python0/" title="파이썬(Python) 강좌 0. 강좌에 앞서서">파이썬(Python) 강좌 0. 강좌에 앞서서</a></h3><p class="post-list__item__description">
+파이썬은 동적 타입 시스템과 자동 메모리 관리 시스템을 제공하고, 객체/명령/함수/절차 지향 스타일을 포함한 다중 프로그래밍 패러다임을 지원합니다.
+또한, 파이썬은 매우
+        </p>
+    </div>
+</article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <a href="/2018/08/02/python0/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://source.unsplash.com/D9Zow2REm8U)" alt="파이썬(Python) 강좌 0. 강좌에 앞서서" class="thumbnail-image"></span>
+    
+    
+        
+<span class="comment-counter">
+    <i class="fa fa-comments-o"></i>
+    
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://xsolute.github.io/2018/08/02/python0/">0</span>
+    
+</span>
+
+
+    
+</a>
+
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/Programming/">Programming</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Programming/Python/">Python</a>
+            </div>
+            <div class="date"><time datetime="2018-08-02T01:45:29.000Z" itemprop="datePublished">2018-08-02</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2018/08/02/python0/">파이썬(Python) 강좌 0. 강좌에 앞서서</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            
 
 참고: 이 포스트 시리즈의 내용은 GoalKicker의 Python Book을 직접 번역한 것입니다. 오역이나 의역이 있을 수 있으므로 참고하시기 바랍니다.
 
 
-About이 PDF를 대가 없이, 모두에게 공유해주십시오. 파이썬 북의 최신 버전은 다음 주소에서...</p></div></article><article class="post-list__item"><div class="post-list__item__col-1"><a class="post-list__item__link" href="/2018/08/01/hello-world/"><div class="post-list__item__link__background" style="background-image:url('/images/default.jpg');"></div></a></div><div class="post-list__item__col-2"><div class="post-list__item__meta"></div><h3 class="post-list__item__title"><a href="/2018/08/01/hello-world/" title="Hello World">Hello World</a></h3><p class="post-list__item__description">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer...</p></div></article></section><div class="pagination"><span class="page-number current">1</span></div></div></div></div><footer id="footer"><div class="widgets"><div class="widgets-inner"><!-- Jade doesn't support dynamic inclusion with `each`.--><!-- So, I just hard coded the file names that will be included.--><div class="widgets__item"><h3 class="widgets__item__heading">Recent posts</h3><ul class="recent-posts"><li class="recent-posts__item"><a href="/2018/08/02/python1/">파이썬(Python) 강좌 1. 시작하기</a></li><li class="recent-posts__item"><a href="/2018/08/02/python0/">파이썬(Python) 강좌 0. 강좌에 앞서서</a></li><li class="recent-posts__item"><a href="/2018/08/01/hello-world/">Hello World</a></li></ul></div><div class="widgets__item"><h3 class="widgets__item__heading">Archives</h3><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">3</span></li></ul></div><div class="widgets__item"><h3 class="widgets__item__heading">Categories</h3></div></div></div><p class="copyright"><small>© 2018 Xsolute Lim<br>Powered by <a href="https://hexo.io" rel="external" target="_blank">Hexo</a>, Theme by <a href="https://github.com/hyunseob" rel="external" target="_blank">HyunSeob</a></small></p></footer><script src="/js/sharer.min.js"></script></body></html>
+About이 PDF를 대가 없이, 모두에게 공유해주십시오. 파이썬 북의 최신 버전은 다음 주소에서 다운로드할 수 있습니다: 주소
+Python® Notes for Professionals는 Sta
+        </p>
+    </div>
+</article>
+    
+        </div>
+    
+
+
+    </div></section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>팔로우:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="https://twitter.com/dev_xsolute" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="https://www.facebook.com/profile.php?id=100008704602804" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/Xsolute" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="linkedin" href="https://www.linkedin.com/in/xsolute/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-linkedin"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/atom.xml" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">최근 글</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/08/02/python1/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://source.unsplash.com/D9Zow2REm8U)" alt="파이썬(Python) 강좌 1. 시작하기" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Programming/">Programming</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Programming/Python/">Python</a></p>
+                            <p class="item-title"><a href="/2018/08/02/python1/" class="title">파이썬(Python) 강좌 1. 시작하기</a></p>
+                            <p class="item-date"><time datetime="2018-08-02T02:46:10.000Z" itemprop="datePublished">2018-08-02</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/08/02/python0/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://source.unsplash.com/D9Zow2REm8U)" alt="파이썬(Python) 강좌 0. 강좌에 앞서서" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Programming/">Programming</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Programming/Python/">Python</a></p>
+                            <p class="item-title"><a href="/2018/08/02/python0/" class="title">파이썬(Python) 강좌 0. 강좌에 앞서서</a></p>
+                            <p class="item-date"><time datetime="2018-08-02T01:45:29.000Z" itemprop="datePublished">2018-08-02</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">카테고리</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Programming/">Programming</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Programming/Python/">Python</a><span class="category-list-count">2</span></li></ul></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">아카이브</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">8월 2018</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">태그</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tutorial/">Tutorial</a><span class="tag-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">태그 클라우드</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Tutorial/" style="font-size: 10px;">Tutorial</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">링크</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zety.com/mycv/xsolute">My Resume</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2018 Xsolute Lim</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'xsolute';
+    
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
