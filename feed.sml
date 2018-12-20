@@ -6,7 +6,7 @@
   <link href="/feed.sml" rel="self"/>
   
   <link href="http://xsolute.github.io/"/>
-  <updated>2018-12-14T01:41:14.045Z</updated>
+  <updated>2018-12-20T14:15:07.112Z</updated>
   <id>http://xsolute.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>알고리즘 정리 0. 개요</title>
+    <link href="http://xsolute.github.io/2018/12/20/algorithm0/"/>
+    <id>http://xsolute.github.io/2018/12/20/algorithm0/</id>
+    <published>2018-12-20T14:00:59.000Z</published>
+    <updated>2018-12-20T14:15:07.112Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://source.unsplash.com/FXFz-sW0uwo" alt=""></p><h1 id="Algorithm-Summing-Up"><a href="#Algorithm-Summing-Up" class="headerlink" title="Algorithm Summing-Up"></a>Algorithm Summing-Up</h1><p>최근 알고리즘 능력을 강화시키기 위해서, 알고리즘 관련 정보를 찾아보며 복습하고 있습니다.</p><p>확실히 다시 짚어가며 공부해보니, 제 부족함이 느껴졌습니다. 공부를 할수록 제 부족이 드러나는 기분이 들었습니다.</p><p>저와 같은 경우처럼 알고리즘에 대한 지식이 거의 전무해져 자신의 역할을 잃어버린 개발직군 종사자에게 일말의 도움이라도 되기 위하여, 알고리즘을 공부하며 정리해둔 내용들을 토대로 포스트를 게시할 예정입니다.</p><h2 id="정리-내용"><a href="#정리-내용" class="headerlink" title="정리 내용"></a>정리 내용</h2><p>위에서 설명해둔 것처럼, 여러 자료구조와 알고리즘 강좌를 보며 정리한 내용을 게시할 것입니다.</p><p>초반에는 자료구조 개념이 자주 나올 예정이고, 자료구조에 대한 정보들을 정리한 이후에는 알고리즘을 중점적으로 다뤄보며, BOJ나 HackerRank에서 풀은 문제들을 해설과 함께 게시해보고자 합니다.</p><h2 id="참고-자료"><a href="#참고-자료" class="headerlink" title="참고 자료"></a>참고 자료</h2><ul><li><a href="https://www.youtube.com/user/TheEasyoung" target="_blank" rel="noopener">허민석</a>님의 코딩인터뷰 강좌를 중점적으로 공부하였기 때문에, 관련 내용이 많을 수 있는 점 참고 바랍니다.</li><li>Python, C++ 코드를 알고리즘 풀이에 사용할 예정입니다. Python이 가장 많이 사용될 것입니다.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/FXFz-sW0uwo&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Algorithm-Summing-Up&quot;&gt;&lt;a href=&quot;#Algorithm-Summing-Up&quot; class=&quot;heade
+      
+    
+    </summary>
+    
+      <category term="Programming" scheme="http://xsolute.github.io/categories/Programming/"/>
+    
+      <category term="Algorithm" scheme="http://xsolute.github.io/categories/Programming/Algorithm/"/>
+    
+    
+      <category term="Tutorial" scheme="http://xsolute.github.io/tags/Tutorial/"/>
+    
+  </entry>
   
   <entry>
     <title>파이썬(Python) 강좌 1. 시작하기</title>
@@ -51,7 +79,7 @@
     <published>2018-08-02T01:45:29.000Z</published>
     <updated>2018-12-14T01:37:40.118Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://source.unsplash.com/D9Zow2REm8U" alt=""></p><ul><li>참고: 이 포스트 시리즈의 내용은 GoalKicker의 Python Book을 직접 번역한 것입니다. 오역이나 의역이 있을 수 있으므로 참고하시기 바랍니다.</li></ul><hr><h1 id="About"><a href="#About" class="headerlink" title="About"></a>About</h1><p>이 PDF를 대가 없이, 모두에게 공유해주십시오. 파이썬 북의 최신 버전은 다음 주소에서 다운로드할 수 있습니다: <a href="https://goalkicker.com/PythonBook" target="_blank" rel="noopener">주소</a></p><p><em>Python® Notes for Professionals</em>는 Stack Overflow의 정말로 멋진 사람들이 작성한 <a href="https://archive.org/details/documentation-dump.7z" target="_blank" rel="noopener">문서</a>를 엮어 만들어졌습니다. 텍스트 내용은 Creative Commons BY-SA를 준수하여 발행되고, 책의 여러 장에 기여하신 분들을 보려면 책의 마지막 부분에 있는 크레딧을 참고하십시오.</p><p>이 책은 교육 목적으로 제작되 무료 컨텐츠이며, 어떠한 공식 파이썬 그룹이나 회사, 그리고 Stack Overflow에 소속되지 않은 비공식 책입니다. 모든 상표들과 등록된 상표들은 각 회사 소유주의 재산입니다.</p><p>이 책의 정보는 정확 여부가 보장되지 않았으므로, 귀하의 신중한 사용을 바랍니다.</p><p>피드백과 오탈자 수정에 대해는 <a href="mailto:&#119;&#x65;&#x62;&#64;&#x70;&#x65;&#116;&#x65;&#114;&#99;&#118;&#x2e;&#99;&#x6f;&#x6d;" target="_blank" rel="noopener">&#119;&#x65;&#x62;&#64;&#x70;&#x65;&#116;&#x65;&#114;&#99;&#118;&#x2e;&#99;&#x6f;&#x6d;</a>으로 보내주시기 바랍니다.</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://source.unsplash.com/D9Zow2REm8U" alt=""></p><ul><li>참고: 이 포스트 시리즈의 내용은 GoalKicker의 Python Book을 직접 번역한 것입니다. 오역이나 의역이 있을 수 있으므로 참고하시기 바랍니다.</li></ul><hr><h1 id="About"><a href="#About" class="headerlink" title="About"></a>About</h1><p>이 PDF를 대가 없이, 모두에게 공유해주십시오. 파이썬 북의 최신 버전은 다음 주소에서 다운로드할 수 있습니다: <a href="https://goalkicker.com/PythonBook" target="_blank" rel="noopener">주소</a></p><p><em>Python® Notes for Professionals</em>는 Stack Overflow의 정말로 멋진 사람들이 작성한 <a href="https://archive.org/details/documentation-dump.7z" target="_blank" rel="noopener">문서</a>를 엮어 만들어졌습니다. 텍스트 내용은 Creative Commons BY-SA를 준수하여 발행되고, 책의 여러 장에 기여하신 분들을 보려면 책의 마지막 부분에 있는 크레딧을 참고하십시오.</p><p>이 책은 교육 목적으로 제작되 무료 컨텐츠이며, 어떠한 공식 파이썬 그룹이나 회사, 그리고 Stack Overflow에 소속되지 않은 비공식 책입니다. 모든 상표들과 등록된 상표들은 각 회사 소유주의 재산입니다.</p><p>이 책의 정보는 정확 여부가 보장되지 않았으므로, 귀하의 신중한 사용을 바랍니다.</p><p>피드백과 오탈자 수정에 대해는 <a href="mailto:&#x77;&#101;&#98;&#64;&#x70;&#x65;&#116;&#101;&#114;&#x63;&#x76;&#46;&#99;&#111;&#109;" target="_blank" rel="noopener">&#x77;&#101;&#98;&#64;&#x70;&#x65;&#116;&#101;&#114;&#x63;&#x76;&#46;&#99;&#111;&#109;</a>으로 보내주시기 바랍니다.</p>]]></content>
     
     <summary type="html">
     
